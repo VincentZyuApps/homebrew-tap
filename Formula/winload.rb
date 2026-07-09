@@ -2,20 +2,20 @@ class Winload < Formula
   desc "Network Load Monitor - nload-like TUI tool for Windows/Linux/macOS"
   homepage "https://github.com/VincentZyuApps/winload"
   license "MIT"
-  version "0.1.12-beta.2"
+  version "0.1.12-rc.2"
 
   # Dynamic URL generation per platform
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-beta.2/winload-macos-x86_64-v0.1.12-beta.2"
+    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-rc.2/winload-macos-x86_64-v0.1.12-rc.2"
     sha256 ""
   elsif OS.mac?
-    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-beta.2/winload-macos-aarch64-v0.1.12-beta.2"
+    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-rc.2/winload-macos-aarch64-v0.1.12-rc.2"
     sha256 ""
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-beta.2/winload-linux-x86_64-v0.1.12-beta.2"
+    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-rc.2/winload-linux-x86_64-v0.1.12-rc.2"
     sha256 ""
   elsif OS.linux?
-    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-beta.2/winload-linux-aarch64-v0.1.12-beta.2"
+    url "https://github.com/VincentZyuApps/winload/releases/download/v0.1.12-rc.2/winload-linux-aarch64-v0.1.12-rc.2"
     sha256 ""
   end
 
